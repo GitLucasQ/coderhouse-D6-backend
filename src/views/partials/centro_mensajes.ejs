@@ -1,0 +1,26 @@
+<div class="row justify-content-md-center m-5">
+    <div class="col-md-6">
+        <div class="row justify-content-md-center m-4">
+            <h2 class="font-weight-bold text-primary">
+                Centro de mensajes
+            </h2>
+        </div>
+
+        <form onsubmit="addMessage(this); return false">
+            <div class="form-group">
+                <input class="form-control" type="email" id="email" placeholder="Email">
+            </div>
+            <div id="messages">
+
+            </div>
+            <div class="row">
+                <div class="form-group mt-2 col-10">
+                    <input class="form-control" type="text" id="message" placeholder="Ingresa un mensaje...">
+                </div>
+                <div class="col-2 d-flex align-items-center">
+                    <input class="btn btn-sm btn-primary" type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
